@@ -1,0 +1,28 @@
+{
+  "name": "mailchimp_newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh9345/mailchimp_newsletter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh9345/mailchimp_newsletter/issues"
+  },
+  "homepage": "https://github.com/josh9345/mailchimp_newsletter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
